@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline'; font-src 'self';">
+    <title>Technical Projects | Security Analyst Portfolio</title>
+    <script src="https://cdn.tailwindcss.com" ></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-slate-900">
+
+    <header class="p-6 border-b border-slate-800 backdrop-blur-md bg-slate-900/80 sticky top-0 z-50">
+        <nav class="max-w-6xl mx-auto flex justify-between items-center">
+            <strong class="text-xl font-mono tracking-wider text-cyan-400">&lt;SEC_OP /&gt;</strong>
+            <ul class="flex space-x-6 text-sm uppercase tracking-widest font-semibold">
+                <li><a href="index.html" class="text-slate-400 hover:text-cyan-400 transition-colors">Hi</a></li>
+                <li><a href="projects.html" class="text-cyan-400 border-b-2 border-cyan-400 pb-1">Projects</a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-cyan-400 transition-colors">Certifications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="max-w-4xl mx-auto mt-16 px-6 mb-24">
+        <header class="mb-12">
+            <span class="text-cyan-500 font-mono text-sm tracking-widest uppercase block mb-2">// Case Studies & Artifacts</span>
+            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">Technical Documentation</h1>
+            <p class="mt-4 text-lg text-slate-400 max-w-2xl">Verified evidence of security investigations, open-source intelligence gathering, and system hardening.</p>
+        </header>
+
+        <section class="space-y-8" aria-label="Cybersecurity Projects">
+            
+            <article class="bg-slate-800/50 rounded-xl border border-slate-700/50 p-8 shadow-xl backdrop-blur-sm transition-all hover:border-cyan-500/50 group relative">
+                <div class="absolute top-0 left-0 h-full w-1 bg-cyan-500 rounded-l-xl"></div>
+                
+                <div class="flex justify-between items-start flex-wrap gap-4">
+                    <div>
+                        <span class="text-xs font-mono text-cyan-400 bg-cyan-950/50 border border-cyan-800/50 px-2.5 py-1 rounded-md uppercase tracking-wider">ALX Milestone 12</span>
+                        <h2 class="text-2xl font-bold mt-3 text-white group-hover:text-cyan-400 transition-colors">External Threat Reconnaissance & IP Attribution</h2>
+                    </div>
+                    <span class="text-xs font-mono text-slate-500 uppercase bg-slate-900 px-2.5 py-1 rounded border border-slate-800">TLP:CLEAR</span>
+                </div>
+
+                <p class="mt-4 text-slate-300 leading-relaxed">
+                    Investigated an anomalous network authentication log involving suspicious external IP traffic (<code class="text-cyan-300 bg-slate-900 px-1.5 py-0.5 rounded font-mono text-sm">102.165.36.250</code>). Utilized advanced OSINT enrichment frameworks to identify identity obfuscation signatures, verify VPN usage, and pinpoint hosting infrastructure providers.
+                </p>
+
+                <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mt-6 mb-2">Core Tools Deployed</h3>
+                <div class="flex flex-wrap gap-2 mb-6">
+                    <span class="text-xs font-mono bg-slate-900 border border-slate-700 text-slate-300 px-3 py-1 rounded-full">SecurityTrails OSINT</span>
+                    <span class="text-xs font-mono bg-slate-900 border border-slate-700 text-slate-300 px-3 py-1 rounded-full">IPInfo API Enrichment</span>
+                    <span class="text-xs font-mono bg-slate-900 border border-slate-700 text-slate-300 px-3 py-1 rounded-full">Threat Triage (SOC L1)</span>
+                </div>
+                
+                <footer class="pt-6 border-t border-slate-700/50 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <a href="assets/IR_Analyst_Report_W12.pdf" 
+                       download="IR_Analyst_Report_W12.pdf"
+                       class="inline-flex items-center justify-center bg-cyan-600 hover:bg-cyan-500 text-slate-900 font-bold px-6 py-3 rounded-lg text-sm tracking-wide transition-all shadow-lg shadow-cyan-600/20 active:scale-95">
+                        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                        Download Investigation Report (PDF)
+                    </a>
+                    <p class="text-xs text-slate-500 font-mono">MD5 Checksum Verified</p>
+                </footer>
+            </article>
+
+        </section>
+    </main>
+
+    <footer class="border-t border-slate-800 py-8 bg-slate-950 text-center text-xs font-mono text-slate-500 tracking-wider">
+        <p>&copy; 2026 | SecOps Portfolio Framework | Built to Professional Security Specifications.</p>
+    </footer>
+
+</body>
+</html>
